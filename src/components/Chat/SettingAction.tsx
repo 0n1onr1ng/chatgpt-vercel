@@ -314,7 +314,7 @@ export default function SettingAction() {
                     lastVisit: Date.now(),
                     settings: {
                       ...defaultEnv.CLIENT_SESSION_SETTINGS,
-                      title: "新的对话"
+                      title: "星的对话"
                     },
                     messages: []
                   })
@@ -322,7 +322,7 @@ export default function SettingAction() {
                   loadSession(sessionID)
                 }}
                 icon="i-carbon:add-alt"
-                label="新的对话"
+                label="星的对话"
               />
               <Show when={store.sessionId !== "index"}>
                 <ActionItem
