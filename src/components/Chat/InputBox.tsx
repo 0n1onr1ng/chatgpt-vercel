@@ -183,7 +183,7 @@ export default function ({
               onClick={stopStreamFetch}
             >
               <span class="dark:text-slate text-slate-7">
-                AI 正在思考 / {store.currentMessageToken} / $
+                星宝正在思考 / {store.currentMessageToken} / $
                 {store.currentMessageToken$.toFixed(4)}
               </span>
             </div>
@@ -197,7 +197,7 @@ export default function ({
             <textarea
               ref={el => setStore("inputRef", el)}
               id="input"
-              placeholder="与 ta 对话吧"
+              placeholder="与星宝对话吧"
               autocomplete="off"
               value={store.inputContent}
               autofocus
