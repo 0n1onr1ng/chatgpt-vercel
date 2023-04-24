@@ -87,9 +87,6 @@ devDependencies:
   '@vercel/node':
     specifier: ^2.10.3
     version: registry.npmmirror.com/@vercel/node@2.10.3
-  '@vercel/analytics':
-    specifier: ^1.1.0
-    version: registry.npmmirror.com/@vercel/analytics@1.1.0
   esbuild:
     specifier: ^0.17.16
     version: registry.npmmirror.com/esbuild@0.17.16

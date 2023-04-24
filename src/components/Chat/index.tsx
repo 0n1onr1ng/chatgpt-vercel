@@ -7,10 +7,6 @@ import { setSession, isMobile } from "~/utils"
 import MessageContainer from "./MessageContainer"
 import InputBox, { defaultInputBoxHeight } from "./InputBox"
 import { type FakeRoleUnion, setActionState } from "./SettingAction"
-import analytics from '@vercel/analytics'
-
-// Track a page view
-analytics('prj_Fa8lZVZl7zikpoOts6U2FvaXpEPI')
 
 const SearchParamKey = "q"
 
