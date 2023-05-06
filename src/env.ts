@@ -18,13 +18,7 @@ export const defaultEnv = {
     continuousDialogue: true,
     APIModel: "gpt-3.5-turbo" as Model
   },
-  CLIENT_DEFAULT_MESSAGE: `Powered by Xingzan
-- 星宝仅支持学习使用，不提供额外服务，长期使用请联系星赞互动。
-- 点击每条消息前的头像，可以锁定对话，作为本轮对话等角色设定。
-- 支持多组对话，打开左下角对话设置，点击右下角第一位新建对话。
-- 输入框中输入 [[/]][[/]] 或 [[空格]][[空格]] 可切换对话，搜索历史消息。
-- [[Shift]] + [[Enter]] 换行。开头输入 [[/]] 或者 [[空格]] 搜索预设提示。
-- [[↑]] 可编辑最近一次提问。点击顶部移至顶部，点击输入框移至底部。
+  CLIENT_DEFAULT_MESSAGE: `你好，我是星宝，欢迎向我提问
 `,
   CLIENT_MAX_INPUT_TOKENS: {
     "gpt-3.5-turbo": 4 * 1024,

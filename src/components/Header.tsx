@@ -41,12 +41,6 @@ export default function Header() {
           loadSession("index")
         }}
       >
-        <Show
-          when={iconTitle().icon}
-          fallback={<div class="w-8em h-8em" innerHTML={logo} />}
-        >
-          <div class="text-7em h-1em mb-8">{iconTitle().icon}</div>
-        </Show>
       </div>
       <header class="px-4 py-2 sticky top-0 z-99 flex justify-between items-center">
         <div
